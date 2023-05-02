@@ -1,0 +1,8 @@
+/* src/components/Footer/Footer.module.css */
+.footer {
+  @apply flex justify-center items-center py-4 mt-8 bg-gray-800;
+}
+
+.footer-content {
+  @apply text-white text-sm;
+}

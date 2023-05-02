@@ -1,0 +1,20 @@
+/* src/components/Header/Header.module.css */
+.header {
+  @apply flex justify-between items-center p-4 bg-gray-800;
+}
+
+.header-logo {
+  @apply text-white text-xl no-underline;
+}
+
+.header-nav {
+  @apply flex gap-4;
+}
+
+.header-nav-link {
+  @apply text-white no-underline;
+}
+
+.header-nav-link:hover {
+  @apply underline;
+}

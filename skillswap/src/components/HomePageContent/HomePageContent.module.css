@@ -1,0 +1,14 @@
+/* src/components/HomePageContent/HomePageContent.module.css */
+.hero {
+  @apply bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500;
+  @apply text-white py-16;
+}
+
+.intro {
+  @apply py-16;
+}
+
+.callToAction {
+  @apply inline-block px-6 py-3 bg-green-500 text-white text-xl font-bold rounded;
+  @apply no-underline hover:bg-green-600 transition-colors duration-300;
+}
